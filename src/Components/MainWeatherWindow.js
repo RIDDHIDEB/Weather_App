@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './MainWeatherWindow.css';
 
 function MainWeatherWindow() {
     const Title = this.props.city ? null : <h1 className='title'>Weather Forecast</h1>;
